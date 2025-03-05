@@ -5,11 +5,10 @@ channels:
 - defaults
 dependencies:
 - pip
-- python=3.6
+- python=3.8
 - nltk
 - scikit-learn
-- pytorch=1.0.0
-- cudatoolkit=10.0
+- pytorch=1.9.0
 - pandas
 - h5py
 - cython
