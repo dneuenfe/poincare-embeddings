@@ -9,6 +9,7 @@ dependencies:
 - nltk
 - scikit-learn
 - pytorch=1.0.0
+- cudatoolkit=10.0
 - pandas
 - h5py
 - cython
