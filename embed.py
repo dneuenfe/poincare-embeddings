@@ -239,7 +239,11 @@ def main():
     model = model.to(device)
     if hasattr(model, 'w_avg'):
         model.w_avg = model.w_avg.to(device)
-    if opt.train_threads > 1:
+"I need to declare If false... below because computationally I prefer to avoid 
+the parallelization got using more threads. I had trouble to use more than one thread
+on my laptop, but If your GPU is good, you try to come back to the original code removing the False"
+    
+    if False and  opt.train_threads > 1:
         threads = []
         model = model.share_memory()
         args = (device, model, data, optimizer, opt, log)
