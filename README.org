@@ -7,7 +7,7 @@ PyTorch implementation of [[https://papers.nips.cc/paper/7213-poincare-embedding
 ** Installation
 Simply clone this repository via
 #+BEGIN_SRC sh
-  git clone https://github.com/facebookresearch/poincare-embeddings.git
+  git clone https://github.com/dneuenfe/poincare-embeddings/edit/main/README.org
   cd poincare-embeddings
   conda env create -f environment.yml
   source activate poincare
