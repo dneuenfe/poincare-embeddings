@@ -1,14 +1,13 @@
 name: poincare
 channels:
-- anaconda
-- pytorch
-- defaults
+- conda-forge
+- nodefaults
 dependencies:
 - pip
-- python=3.8
+- python=3.11.0
 - nltk
 - scikit-learn
-- pytorch=1.9.0
+- pytorch=2.6.0
 - pandas
 - h5py
 - cython
